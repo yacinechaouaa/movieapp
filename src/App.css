@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  background-color: rgb(226, 198, 43);
+}
+.search {
+  height: 34px;
+  width: 534px;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 8px;
+  background-color: white;
+}
+.image {
+  width: 260px;
+  height: 362px;
+  object-fit: cover;
+}
+.movies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+.each {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 280px;
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+}
+.moviename {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.rate {
+  margin-left: 30px;
+}
+.rateinput {
+  width: 20px;
+  margin-left: 150px;
+}
