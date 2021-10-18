@@ -6,12 +6,17 @@ const Navbar = (props) => {
   };
   return (
     <div>
-      <input
-        type="text"
-        placeholder="search your movie here"
-        onChange={handlchange}
-        className="search"
-      />
+      <header>
+        <input
+          type="text"
+          placeholder="search your movie here"
+          onChange={handlchange}
+          className="search"
+        />
+        <div>
+          <h1>movie App </h1>
+        </div>
+      </header>
     </div>
   );
 };

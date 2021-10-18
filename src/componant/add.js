@@ -11,7 +11,7 @@ const AddMovie = ({ addfilm }) => {
     let filmtoadd = {
       name: name,
       url: image,
-      n: Math.random(),
+      id: Math.random(),
     };
     addfilm(filmtoadd);
     setImage("");
